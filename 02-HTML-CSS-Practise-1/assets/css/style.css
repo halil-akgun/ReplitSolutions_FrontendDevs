@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --description-margin-bottom: 1.6rem;
+  --title-margin-top: 1rem;
+  --cell-padding: .2rem;
+  --link-color: rgb(43, 88, 150);
+  --link-text-decoration: none;
+  --title-font-size: 1.6rem;
+}
+
+.cell {
+  padding: var(--cell-padding);
+  vertical-align: top;
+}
+
+.cell:hover {
+  background-color: rgb(225, 232, 232);
+}
+
+.cell .product-title {
+  margin-top: var(--title-margin-top);
+  font-size: var(--title-font-size);
+}
+
+.cell .product-description {
+  margin-bottom: var(--description-margin-bottom);
+}
+
+.cell .product-link {
+  text-decoration: var(--link-text-decoration);
+  color: var(--link-color);
+  font-weight: bold;
+}
+
+.cell .product-link:hover {
+  text-decoration: underline;
+}
