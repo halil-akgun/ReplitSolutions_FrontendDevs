@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-li {
+    display: inline-block;
+}
+
+.navbar-li a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF0063;
+    color: #EAF6F6;
+    margin-right: 20px;
+    margin-top: 1rem;
+    padding: 5px 10px;
+}
+
+.navbar-li a::before {
+    content: "🌹";
+    margin-right: .4rem;
+}
+
+.navbar-ul li:last-child a {
+    margin-right: 0px;
+}
