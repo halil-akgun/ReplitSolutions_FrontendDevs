@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+main .left {
+    flex: 2 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 9px;
+    height: 300px;
+}
+
+main .left .logo {
+    flex: 1;
+}
+
+main .left .logo div {
+    margin: 5px;
+    font-size: .7rem;
+    color: rgb(135, 131, 131);
+}
+
+main .left .signin {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+main .left .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 54px;
+    flex: 3;
+}
+
+
+main .right {
+    flex: 3 0 300px;
+    background-image: url(./img/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.signin input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 17px;
+    outline: none;
+}
+
+.signin h2 {
+    margin-bottom: 27px;
+}
+
+main .left .button button {
+    width: 100px;
+    height: 27px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #583572;
+}
+
+main .left .button button:hover {
+    background-image: linear-gradient(to bottom, #583572, rgb(116, 132, 114), rgb(52, 214, 93), #583572);
+    cursor: pointer;
+}
+
+main .right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-top: 3vh;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(135, 131, 131);
+}
