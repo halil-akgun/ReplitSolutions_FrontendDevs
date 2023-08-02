@@ -7,36 +7,50 @@
   <title>replit</title>
   <link href="media.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
   <nav class="navbar row">
-    <div class="col-sm-10 col-md-4">
-      <img src="./img/logo.png" alt="logo">
+    <div class="col-sm-10 col-md-6">
+      <a href="#"><img class="logo" src="./img/logo.png" alt="logo"></a>
     </div>
-    <div class="col-sm-12 col-md-8">
-      <ul class="col-sm-none">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">References</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
+    <div class="nav-links-div col-sm-2 col-md-6">
+      <ul class="col-sm-none nav-links-ul">
+        <li><a class="links-md" href="#">Home</a></li>
+        <li><a class="links-md" href="#">Products</a></li>
+        <li><a class="links-md" href="#">References</a></li>
+        <li><a class="links-md" href="#">About Us</a></li>
+        <li><a class="links-md" href="#">Contact</a></li>
       </ul>
+      <div class="col-md-none">
+        <input type="checkbox" class="menu-checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars fa-xl"></i></label>
+        <ul class="toggle-list">
+          <li><a class="links-md" href="#">Home</a></li>
+          <li><a class="links-md" href="#">Products</a></li>
+          <li><a class="links-md" href="#">References</a></li>
+          <li><a class="links-md" href="#">About Us</a></li>
+          <li><a class="links-md" href="#">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <main class="row">
-    <section class="row col-sm-12 col-md-9">
-      <div class="col-sm-4 col-md-4">
-        <img src="./img/about.jpg" alt="aboutus">
+  <main class="row" style="margin-top: 50px;">
+    <section class="section1 row col-sm-12 col-md-9">
+      <div class="section1-img col-sm-4 col-md-4">
+        <img id="aboutus-img" src="./img/about.jpg" alt="aboutus">
       </div>
-      <div>
+      <div class="col-sm-8 col-md-8">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam, amet repellendus consectetur
           exercitationem praesentium.</p>
       </div>
     </section>
-    <section class="col-sm-12 col-md-3">
+    <section class="section2 col-sm-12 col-md-3">
       <div>
         <h2>Popular Product</h2>
         <img src="./img/product.jpg" alt="aboutus">
@@ -49,15 +63,17 @@
     </section>
   </main>
 
-  <footer class="col-sm-none">
-    <div>
-      <img src="./img/logo.png" alt="aboutus">
+  <footer class="col-sm-none row">
+    <div class="col-md-5">
+      <a href="#"><img class="logo2" src="./img/logo.png" alt="logo"></a>
     </div>
-    <div>
+    <div class="col-md-5">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam, amet repellendus consectetur
         exercitationem praesentium.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem ipsum.</p>
     </div>
-    <div>
+    <div class="col-md-2">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>

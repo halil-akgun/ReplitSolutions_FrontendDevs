@@ -1,6 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
 
+.navbar {
+  display: flex;
+  padding: 15px;
+}
+
+.nav-links-div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav-links-ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-links-ul li {
+  display: flex;
+}
+
+.nav-links-ul a {
+  text-decoration: none;
+  padding: 7px 17px;
+  background-color: #00a818;
+  color: white;
+}
+
+.nav-links-ul a:hover {
+  background-image: linear-gradient(#00a818, #16e134, #00a818);
+}
+
+main {
+  padding: 15px;
+}
+
+.section2 {
+  padding: 25px 20px;
+  background-color: rgb(235, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+.section2 h2 {
+  margin: 15px 0;
+}
+
+.section1 {
+  margin-bottom: 25px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #efefef;
+  padding: 1rem 0rem;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div:first-child {
+  text-align: center;
+  align-self: flex-start;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer p {
+  margin-bottom: 9px;
+}
+
+footer div:last-child {
+  padding-left: 40px;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 9px;
+  user-select: none;
+}
+
+.menu-checkbox {
+  display: none;
+}
+
+.toggle-list {
+  position: absolute;
+  list-style-type: none;
+  margin-top: -0.15rem;
+  margin-left: -3.57rem;
+  padding: 0;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease, opacity 0.2s ease;
+  /* Transition for smooth animation - Ease in and out */
+}
+
+.menu-checkbox:checked~.toggle-list {
+  opacity: 1;
+  max-height: 200px;
+}
+
+.menu-checkbox:checked~.menu-icon {
+  padding: 9px;
+  border-radius: 3px;
+  background-color: #00a818;
+}
+
+.toggle-list>li {
+  width: 6rem;
+  height: 2rem;
+  padding: .5rem;
+  background-color: #00a818;
+}
+
+
+.toggle-list>li:hover {
+  background-image: linear-gradient(#00a818, #16e134, #00a818);
+}
+
+.toggle-list>li>a {
+  text-decoration: none;
+  color: white;
+}
