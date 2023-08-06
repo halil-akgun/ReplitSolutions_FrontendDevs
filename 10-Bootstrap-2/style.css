@@ -1,0 +1,16 @@
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #f9f9f9 !important;
+}
+
+.card img {
+  width: 130px;
+  height: 130px;
+}
+
+.card a {
+  text-decoration: none;
+}
