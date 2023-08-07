@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#logo {
+  width: 100%;
+}
+
+@media (max-width: 991.9px) {
+  #qwe {
+    width: 100vw;
+  }
+  #button {
+    margin-right: 17px;
+  }
+}
+
+.nav-item a {
+  padding: 5px !important;
+}
