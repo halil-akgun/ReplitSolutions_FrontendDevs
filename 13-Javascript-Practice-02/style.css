@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#buttons {
+  width: 353px;
+  height: 353px;
+}
+
+#result {
+  height: 95px;
+  width: 353px;
+  font-size: 93px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: font-size 0.5s ease-in-out;
+}
+
+#process {
+  width: 353px;
+  height: 72px;
+  border-radius: 13px 13px 0 0;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  white-space: pre-wrap !important;
+}
+
+#result.full {
+  font-size: 33px !important;
+  white-space: pre-wrap !important;
+  overflow: hidden;
+}
+
+#result.full2 {
+  font-size: 19px !important;
+  white-space: pre-wrap !important;
+  overflow: hidden;
+}
+
+div span {
+  font-size: 43px;
+  width: 73px;
+  height: 73px;
+  background-color: #ececeeff;
+  user-select: none;
+  cursor: pointer;
+}
+
+div span:hover {
+  background-color: rgb(203, 203, 203);
+}
+
+#equals:hover {
+  background-color: rgba(164, 31, 31, 0.942) !important;
+}

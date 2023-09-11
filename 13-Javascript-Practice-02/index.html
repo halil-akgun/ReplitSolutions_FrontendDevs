@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+  Bir hesap makinesi yapınız.
+ -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container mt-4 d-flex justify-content-center">
+    <div id="calculator" class="no-select">
+      <div id="process" class="bg-danger px-2"></div>
+      <div id="result" class="bg-danger d-flex justify-content-end align-items-center px-2">0</div>
+      <div id="buttons" class="m-0 d-flex flex-column justify-content-around">
+        <div class="d-flex justify-content-around">
+          <span id="seven" class="text-center rounded-circle">7</span>
+          <span id="eight" class="text-center rounded-circle">8</span>
+          <span id="nine" class="text-center rounded-circle">9</span>
+          <span id="plus" class="text-center rounded-circle">+</span>
+        </div>
+        <div class="d-flex justify-content-around">
+          <span id="four" class="text-center rounded-circle">4</span>
+          <span id="five" class="text-center rounded-circle">5</span>
+          <span id="six" class="text-center rounded-circle">6</span>
+          <span id="minus" class="text-center rounded-circle">-</span>
+        </div>
+        <div class="d-flex justify-content-around">
+          <span id="one" class="text-center rounded-circle">1</span>
+          <span id="two" class="text-center rounded-circle">2</span>
+          <span id="three" class="text-center rounded-circle">3</span>
+          <span id="multiply" class="text-center rounded-circle">*</span>
+        </div>
+        <div class="d-flex justify-content-around">
+          <span id="zero" class="text-center rounded-circle">0</span>
+          <span id="point" class="text-center rounded-circle">.</span>
+          <span id="divide" class="text-center rounded-circle">/</span>
+          <span id="equals" class="bg-danger text-center rounded-circle">=</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
