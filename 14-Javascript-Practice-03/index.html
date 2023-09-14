@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+  Instructions
+Bir sayının palindrome olup olmadığını bulan uygulamayı yapınız. Palindrome sayı düzden ve tersten okunduğunda birbirine eşit olan sayıdır.
+
+Examples
+12221 -> palindrome   ||| 4556 -> palindrome değil
+
+Requirements
+Uygulamayı DRY (Dont repeat yourself) ve SR (Single Responsibility) prensiplerine uygun olarak tasarlayınız.
+Sayı bir textbox tan alınacak ve butona basılınca sonuç bir alert ile gösterilecektir.
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1 class="text-center my-5">Check If A Number Is Palindrome</h1>
+
+  <div class="container">
+    <h4>Enter a number:</h4>
+    <input class="form-control my-2" type="number" id="input">
+    <button class="btn btn-dark" id="btn">Check</button>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
