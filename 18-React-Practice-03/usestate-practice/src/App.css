@@ -1,0 +1,16 @@
+.container {
+  width: 80%;
+  margin: 55px auto;
+}
+
+.btn-group {
+  margin-bottom: 33px;
+}
+
+.btn-group button {
+  padding: 5px 15px;
+}
+
+.progress-bar {
+  color: black;
+}
