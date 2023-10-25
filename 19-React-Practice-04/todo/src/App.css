@@ -1,0 +1,27 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.todo-card {
+    width: 100% !important;
+}
+
+.todo-card .card-footer {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-card .form-check {
+    color: black !important;
+    cursor: pointer;
+    margin: 0;
+}
+
+.todo-card .form-check-input:checked {
+    background-color: #198553;
+}
+
+.todo-card svg {
+    font-size: 18px;
+    cursor: pointer;
+    color: #DB3842;
+}
